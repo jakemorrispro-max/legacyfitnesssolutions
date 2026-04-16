@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Legacy Fitness Solutions</title>
+  <meta name="description" content="Get in touch with Legacy Fitness Solutions. Located in Tulsa, Oklahoma. Call 918-872-0095 or email info@legacyfitnesssolutions.com.">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="header-logo"><img src="images/logo.png" alt="Legacy Fitness Solutions"></a>
+      <nav class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="offerings.html">Offerings</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+      <div class="nav-cta"><a href="shop.html" class="btn btn-primary">Packages</a></div>
+      <div class="mobile-toggle" aria-label="Toggle Menu"><span></span><span></span><span></span></div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1>Contact Us</h1>
+    <p class="breadcrumb"><a href="index.html">Home</a> / Contact Us</p>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <section class="section">
+    <div class="container text-center">
+      <p class="section-label">Contact Us</p>
+      <h2 class="section-title">Find Us Now</h2>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:40px;">
+        <div class="animate-on-scroll" style="text-align:center;">
+          <img src="images/photo-7-1.jpg" alt="Training" style="width:100%;height:250px;object-fit:cover;border-radius:8px;margin-bottom:20px;">
+          <img src="images/location-icon.png" alt="Location" style="width:42px;height:58px;margin:0 auto 10px;">
+          <h4 style="font-size:22px;text-transform:uppercase;">Location</h4>
+          <p>Tulsa, Oklahoma</p>
+        </div>
+        <div class="animate-on-scroll" style="text-align:center;">
+          <img src="images/photo-3-1.jpg" alt="Coaching" style="width:100%;height:250px;object-fit:cover;border-radius:8px;margin-bottom:20px;">
+          <img src="images/phone-icon.png" alt="Phone" style="width:34px;height:55px;margin:0 auto 10px;">
+          <h4 style="font-size:22px;text-transform:uppercase;">Phone</h4>
+          <p><a href="tel:918-872-0095">918-872-0095</a></p>
+        </div>
+        <div class="animate-on-scroll" style="text-align:center;">
+          <img src="images/photo-6-1.jpg" alt="Fitness" style="width:100%;height:250px;object-fit:cover;border-radius:8px;margin-bottom:20px;">
+          <img src="images/email-icon.png" alt="Email" style="width:48px;height:42px;margin:0 auto 10px;">
+          <h4 style="font-size:22px;text-transform:uppercase;">Email</h4>
+          <p><a href="mailto:info@legacyfitnesssolutions.com">info@legacyfitnesssolutions.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="animate-on-scroll">
+          <p class="section-label">Ready to Workout</p>
+          <h2 class="section-title">Get in Touch</h2>
+          <p style="margin-bottom:20px;">We'd love to hear from you! Whether you have questions about our programs, want to schedule a consultation, or are ready to start your fitness journey, reach out to us today.</p>
+          <img src="images/photo-3-1.jpg" alt="Legacy Fitness" style="border-radius:12px;margin-top:20px;">
+        </div>
+        <div class="contact-form animate-on-scroll">
+          <form action="https://formsubmit.co/info@legacyfitnesssolutions.com" method="POST">
+            <input type="hidden" name="_subject" value="New Contact from Legacy Fitness Website">
+            <input type="hidden" name="_captcha" value="false">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email address" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="One-On-One Coaching">One-On-One Coaching</option>
+                <option value="Online App">Online App</option>
+                <option value="Nutrition Coaching">Nutrition Coaching</option>
+                <option value="LFS Platinum Coaching">LFS Platinum Coaching</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your fitness goals..." rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Legacy Fitness Solutions">
+          <p>Empowering you to achieve your fitness legacy.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/share/e2A4c9sJseLJMTop/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="offerings.html">Offerings</a>
+            <a href="lfs-platinum-coaching.html">LFS Platinum Coaching</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <div class="footer-contact">
+            <p><i class="fas fa-map-marker-alt"></i> Tulsa, Oklahoma</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:info@legacyfitnesssolutions.com">info@legacyfitnesssolutions.com</a></p>
+            <p><i class="fas fa-phone"></i> <a href="tel:918-872-0095">918-872-0095</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright 2024 LegacyFitnessSolutions All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
