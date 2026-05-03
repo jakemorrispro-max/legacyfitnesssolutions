@@ -1005,7 +1005,7 @@ ul { list-style: none; }
 .scroll-top {
   position: fixed;
   bottom: 30px;
-  right: 30px;
+  left: 30px;
   width: 45px;
   height: 45px;
   background: var(--red);
