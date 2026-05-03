@@ -750,6 +750,19 @@ ul { list-style: none; }
 .footer-contact a { color: rgba(255,255,255,0.8); }
 .footer-contact a:hover { color: var(--primary); }
 
+.footer-legal {
+  text-align: center;
+  padding: 16px 0 4px;
+  font-size: 13px;
+  opacity: 0.75;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+.footer-legal a {
+  color: rgba(255,255,255,0.85);
+  margin: 0 6px;
+}
+.footer-legal a:hover { color: var(--primary); }
+
 .footer-bottom {
   text-align: center;
   padding: 20px 0;
